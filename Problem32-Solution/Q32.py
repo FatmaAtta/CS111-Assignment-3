@@ -1,3 +1,4 @@
+#checks if two arrays are equal
 import sys
 size=int(input("Enter the size of the array\n"))
 list1=[int(input("Enter a number in the first list ")) for i in range(size)]
