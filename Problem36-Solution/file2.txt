@@ -1,0 +1,15 @@
+CS assignment 3
+
+Q36.
+
+write a python program
+that takes two file names
+and copies the first file to the second one
+
+Notes:
+"a": will insert new text at the end of the text file while
+"w": will empty the file before inserting the text
+when using "a": open the file in that mode 
+add the stuff you want to add
+close the file
+then reopen it with the "r" mode to be able to read it

@@ -1,0 +1,8 @@
+f=open("file2.txt","rt")
+lines=len(f.readlines())
+print("There are ",lines," lines")
+f.seek(0)
+words=f.read()
+word=len(words.split())
+print("There are ",word," words")
+print("There are ",len(words)," characters")
